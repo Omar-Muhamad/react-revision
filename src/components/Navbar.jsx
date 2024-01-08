@@ -11,7 +11,7 @@ const Navbar = () => {
         <ul className="nav-links flex gap-8">
           {navLinks.map((link, index) => (
             <li key={link + index} className="nav-link">
-              <Link to={`#${link}`}>{link}</Link>
+              <Link to={link}>{link}</Link>
             </li>
           ))}
         </ul>
