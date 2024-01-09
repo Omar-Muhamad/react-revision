@@ -1,7 +1,12 @@
+import ContactForm from "../components/ContactForm";
+
 const ContactUs = () => {
   return (
-    <div className="h-[calc(100vmin-10vh)] flex justify-center items-center">Contact Us page</div>
-  )
-}
+    <main>
+      <h1 className="form-header">Contact Us</h1>
+      <ContactForm />
+    </main>
+  );
+};
 
-export default ContactUs
+export default ContactUs;
