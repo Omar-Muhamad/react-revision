@@ -6,7 +6,7 @@ const ContextChallenge = () => {
   const [language, setLanguage] = useState(languages[0])
 
   return (
-    <button onClick={() => {language === languages[0] ? setLanguage(languages[1]) : setLanguage(languages[0])}}>
+    <button onClick={() => {setLanguage(() => language === languages[0] ? languages[1] : languages[0])}}>
       {language}
     </button>
   );
