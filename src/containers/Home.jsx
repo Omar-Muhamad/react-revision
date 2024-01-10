@@ -3,11 +3,11 @@
 // import Counter3 from "../components/useState/Counter3";
 // import Counter4 from "../components/useState/Counter4";
 
-import { createContext } from "react";
-import ComponentA from "../components/useContext/ComponentA";
+// import { createContext } from "react";
+// import ComponentA from "../components/useContext/ComponentA";
 
-export const UserContext = createContext()
-export const JobContext = createContext()
+// export const UserContext = createContext()
+// export const JobContext = createContext()
 
 const Home = () => {
   return (
@@ -16,11 +16,11 @@ const Home = () => {
         <h1 className="main-header">Home page</h1>
         {/* <Counter />
         <Counter2 />
-        <Counter3 />      // learn useState
+        <Counter3 />                                            // learn useState
         <Counter4 /> */}
       {/* <UserContext.Provider value={'Omar Muhammad'}>
         <JobContext.Provider value={'Fullstack Developer'}>
-          <ComponentA />          // learn useContext
+          <ComponentA />                                        // learn useContext
         </JobContext.Provider>
       </UserContext.Provider> */}
       </div>
